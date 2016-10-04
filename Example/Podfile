@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SMSCountryApi_Example' do
+  pod 'SMSCountryApi', :path => '../'
+
+  target 'SMSCountryApi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
