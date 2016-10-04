@@ -1,0 +1,6 @@
+framework module Pods_SMSCountryApi_Example {
+  umbrella header "Pods-SMSCountryApi_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

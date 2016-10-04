@@ -1,0 +1,6 @@
+framework module SMSCountryApi {
+  umbrella header "SMSCountryApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

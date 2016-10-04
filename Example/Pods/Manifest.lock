@@ -1,0 +1,16 @@
+PODS:
+  - SMSCountryApi (0.1.0)
+
+DEPENDENCIES:
+  - SMSCountryApi (from `../`)
+
+EXTERNAL SOURCES:
+  SMSCountryApi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMSCountryApi: 628e522d3f7b0f37179282c8239db44684bf0641
+
+PODFILE CHECKSUM: d495e2119f67ddd342bf79870e72ddd7b3ef38c9
+
+COCOAPODS: 1.1.0.rc.2
