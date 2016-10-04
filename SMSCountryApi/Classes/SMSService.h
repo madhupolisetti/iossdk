@@ -15,8 +15,10 @@
 typedef void (^SendSMSSuccessBlock)(SendSMSResponse *sendSMSResponse);
 
 @interface SMSService : NSObject
+
 @property (nonatomic, strong) SMSCountryApi *smsCountryApi;
 
+-(void)initWith:(SMSCountryApi *)smsCountryApi;
 -(void)sendSMS:(SendSMSRequest *)sendSMSRequest
        success:(SendSMSSuccessBlock)successBlock
        failure:(ErrorBlock)errorBlock;
